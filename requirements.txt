@@ -2,6 +2,9 @@ accelerate>=0.26.0
 datasets==4.3.0
 evaluate==0.4.6
 ipykernel==7.1.0
+matplotlib>=3.8.0
+pandas>=2.2.0
 scikit-learn==1.7.2
+seaborn>=0.13.0
 torch==2.9.0
 transformers==4.57.1

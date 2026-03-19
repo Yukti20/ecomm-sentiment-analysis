@@ -1,0 +1,19 @@
+### Python / Jupyter
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+### Virtual environments
+venv-*/
+venv-*/
+
+### Training artifacts / saved models
+model/
+model_corrected/
+artifacts/
+results/
+results_corrected/
+logs/
+logs_*/
+*.log
+
