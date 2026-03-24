@@ -5,7 +5,7 @@ The dataset is a dictionary-like container storing `train` and `test` splits. Ea
 `title`, `content`, and `label`.
 
 Label mapping (binary classification):
-`label=0` -> negative, `label=1` -> positive.
+`label=0` -> negative, `label=1` -> positive. 
 
 **Pretrained model**: `distilbert-base-uncased`
 
@@ -18,4 +18,3 @@ Label mapping (binary classification):
 ## Notes
 - The notebook is designed to be runnable as a demo by using small subsets of the dataset.
 - Fine-tuned model saving is optional. In the notebook, set `SAVE_MODEL = True` to write outputs under `artifacts/`.
-- `artifacts/`, `model/`, and training logs are ignored via `.gitignore` so you don't accidentally upload large model weights.
